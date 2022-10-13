@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website|Abu Al Shahriar Rifat</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- header section starts -->
+    <div id="header">
+        <div class="container">
+            <nav>
+                <img src="./images/sharda-logo.jpg" 
+                alt="" class="logo"/>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fas fa-times" 
+                    onclick="closemenu()"></i>
+                </ul>
+                <i class="fas fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+             <p>FULL STACK WEB DEVELOPER</p>
+             <h1>Hi,I am <span>Abu Al Shahriar</span><br> Rifat</h1>
+            </div>
+        </div> 
+    </div>
+    <!-- header section ends -->
+    <!-- about section starts from here -->
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="./images/MyImage.jpg" alt="">
+                </div>
+                <div class="about-col-2">
+                   <h1 class="sub-title">About Me</h1>
+                   <p>I am Abu Al Shahriar  Rifat.I am studying  University  of Sharda in Information  Technology  Department. I love programming . I am a professional  Full stack Software  Engineer, web developer  and Competitive  Programmer.Basically  I  am woking  both frontend && backbend with Javascript.</p>
+                   <div class="tab-titles">
+                    <p class="tab-links 
+                    active-link" 
+                    onclick="openTab('skills')">Skills</p>
+                    <p class="tab-links"
+                    onclick="openTab('experience')">Experience</p>
+                    <p class="tab-links"
+                    onclick="openTab('education')">Education</p>
+                   </div>
+                   <!-- skill starts from here -->
+                   <div class="tab-contents active-tab" id="skills">
+                     <ul>
+                        <li><span>Front-end</span>
+                        <br>Developement</li>
+                        <li><span>Back-end</span>
+                        <br>Developement</li>
+                        <li><span>Mern Stack</span>
+                        <br>Developement</li>
+                     </ul>
+                   </div>
+                   <!-- Skill ends from here -->
+              <!-- Experience starts from here -->
+              <div class="tab-contents" id="experience">
+                <ul>
+                   <li><span>2019-2021</span>
+                   <br>Self -Employed</li>
+                   <li><span>2021-2022</span>
+                   <br>Made more than 15 Projects
+                last 1 year</li>
+                </ul>
+              </div>
+              <!-- Experience ends from here -->
+
+            <!-- Education section starts from here -->
+            <div class="tab-contents" id="education">
+                <ul>
+                   <li><span>2019-2022</span>
+                   <br>BSC in IT from Sharda University,UP,India 67% Marks</li>
+                   <li><span>2015-2017</span>
+                   <br>H.S.C from SSNIC,Mymensingh,Bangladesh CGPA 4.33</li>
+                   <li><span>2009-2014</span>
+                   <br>S.S.C from RPHS,Sarishabari,Jamalpur,Bangladesh CGPA-5.00</li>
+                </ul>
+              </div>
+            <!-- Education section ends from here -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- about section ends from here -->
+    <!-- Services section starts from  here -->
+     <div id="services">
+        <div class="container">
+            <div class="sub-title">My Services</div>
+            <div class="services-list">
+             <div>
+                <i class="fa-solid fa-code"></i>
+                <h2>Responsive Web Design</h2>
+                <p>Web designing is the creation of websites and pages to reflect a company's brand and information and ensure a user-friendly experience. Appearance and design are incorporated as vital elements whether you're designing a website, mobile app or maintaining content on a web page.</p>
+                <a href="#">Learn More</a>
+             </div>
+             <div>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <h2>E-Commerce Web  Developement</h2>
+                <p>Web designing is the creation of websites and pages to reflect a company's brand and information and ensure a user-friendly experience. Appearance and design are incorporated as vital elements whether you're designing a website, mobile app or maintaining content on a web page.</p>
+                <a href="#">Learn More</a>
+             </div>
+             <div>
+                <i class="fa-brands fa-dev"></i>
+                <h2>Mern Stack Web Developement</h2>
+                <p>Web designing is the creation of websites and pages to reflect a company's brand and information and ensure a user-friendly experience. Appearance and design are incorporated as vital elements whether you're designing a website, mobile app or maintaining content on a web page.</p>
+                <a href="#">Learn More</a>
+             </div>
+            </div>
+        </div>
+     </div>
+    <!-- Servicess section ends from here -->
+    <!-- Portfolio starts from here -->
+    <div id="portfolio">
+      <div class="container">
+      <h1 class="sub-title">My Work</h1>
+          <div class="work-list">
+            <div class="work">
+                    <img src="./images/restaurant.jpg" alt="">
+               <div class="layer">
+                <h3>Restaurant Website</h3>
+                <p>The app connect you the Talented People around the world.Download it from play store</p>
+                <a href="https://chic-starlight-7870b4.netlify.app/" target="_blank">
+                    <i class="fas fa-external-link-alt"></i>
+                </a>
+               </div>
+            </div>
+            <div class="work">
+                <img src="./images/portfolio.jpg" alt="">
+                 <div class="layer">
+                    <h3>Blog Website</h3>
+                    <p>The app connect you the Talented People around the world.Download it from play store</p>
+                <a href="https://resplendent-stardust-0784ee.netlify.app/" target="_blank">
+                    <i class="fas fa-external-link-alt"></i>
+                </a>
+                 </div>
+                
+               </div>
+               <div class="work">
+                <img src="./images/Library.jpg" alt="">
+                 <div class="layer">
+                    <h3>Rifat Library Store</h3>
+                    <p>The app connect you the Talented People around the world.Download it from play store</p>
+                <a href="https://gleaming-centaur-cc77be.netlify.app/" target="_blank">
+                    <i class="fas fa-external-link-alt"></i>
+                </a>
+                 </div>
+               
+               </div>
+               <div class="work">
+                <img src="./images/Web.jpg" alt="">
+                <div class="layer">
+                    <h4>Portfolio Website</h4>
+                    <p>The app connect you the Talented People around the world.Download it from play store</p>
+                <a href="https://graceful-flan-0a7730.netlify.app/" target="_blank">
+                    <i class="fas fa-external-link-alt"></i>
+                </a>
+                </div>
+                
+               </div>
+
+               <div class="work">
+                <img src="https://images.unsplash.com/photo-1551009175-8a68da93d5f9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1351&q=80" alt="">
+                <div class="layer">
+                 <h3>Sliding Card</h3>
+                 <p>The app connect you the Talented People around the world.Download it from play store</p>
+                <a href="https://lucent-trifle-3e6749.netlify.app/">
+                    <i class="fas fa-external-link-alt"></i>
+                </a>
+                </div>
+             </div>
+                
+
+                <div class="work">
+                 <img src="./images/GYM.jpg" alt="">
+                 <div class="layer">
+                    <h3>Responsive React Gym Practice Website</h3>
+                    <p>The app connect you the Talented People around the world.Download it from play store</p>
+                <a href="https://rifatgym2686.pages.dev/" target="_blank">
+                    <i class="fas fa-external-link-alt"></i>
+                </a>
+                 </div>
+                 
+                </div>
+        
+                <div class="work">
+                    <img src="/images/React-portfolio.jpg" alt="">
+                    <div class="layer">
+                       <h3>Responsive simple Portfolio website</h3>
+                       <p>The app connect you the Talented People around the world.Download it from play store</p>
+                   <a href="https://voluble-salmiakki-4d6e40.netlify.app/" target="_blank">
+                       <i class="fas fa-external-link-alt"></i>
+                   </a>
+                    </div>
+                    
+                   </div>
+                   <div class="work">
+                    <img src="Images1/shoe.jpg" alt="">
+                    <div class="layer">
+                       <h3>Product Display</h3>
+                       <p>The app connect you the Talented People around the world.Download it from play store</p>
+                   <a href="https://voluble-salmiakki-4d6e40.netlify.app/" target="_blank">
+                       <i class="fas fa-external-link-alt"></i>
+                   </a>
+                    </div>
+                    
+                   </div>
+
+                   <div class="work">
+                    <img src="Images/sharda-logo.jpg" alt="">
+                    <div class="layer">
+                       <h3>Community Connect Website</h3>
+                       <p>The app connect you the Talented People around the world.Download it from play store</p>
+                   <a href="https://amazing-knuth-de990c.netlify.app/" target="_blank">
+                       <i class="fas fa-external-link-alt"></i>
+                   </a>
+                    </div>
+                    
+                   </div>
+    
+                    
+                   </div>
+                
+                
+                </div>
+
+                   
+                   </div>
+                   
+                   </div>
+          </div>
+          <a href="#" class="btn">See More</a>
+      </div>
+    </div>
+    <!-- portfolio ends from here -->
+    <!-- Contact from starts from here -->
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class=""sub-title>Contact Me</h1>
+                     <p><i class="fa-solid fa-paper-plane"></i>rifatsharda2686@gmail.com</p>
+                     <p><i class="fa-solid fa-phone">
+                     </i>+8801313218256</p>
+                     <div class="social-icons">
+                     <a href="https://www.facebook.com/shahriar.rifat.528" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                     </a>
+                     <a href="#">
+                        <i class="fab fa-instagram" target="_blank"></i>
+                     </a>
+                     <a href="https://www.linkedin.com/in/abu-al-shahriar-rifat-3503a91a6/" 
+                     target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                     </a>
+                     <a href="https://github.com/2019005005-Abu" target="_blank">
+                        <i class="fab fa-github"></i>
+                     </a>
+                     </div>
+                     <a href="./images/CV.pdf" 
+                     class="btn btn_2" download>Download CV</a>
+                </div>
+                <div class="contact-right">
+                   <form name="submit-to-google-sheet">
+                    <div>
+                        <input type="text" id="name" name="name" 
+                        placeholder="Enter Name" required>
+                    </div>
+                    <div>
+                        <input type="email" id="email" name="email" 
+                        placeholder="Enter Email" required>
+                    </div>
+                    <div>
+                        <textarea name="textarea" id="textarea" 
+                         rows="6" placeholder="Text Here">
+                    </textarea>
+                    </div>
+                    <div>
+                        <button type="submit" class="btn1">Submit</button>
+                    </div>
+                   </form> 
+                    <span id="msg"></span>
+                </div>
+                
+            </div>
+              <div class="copy-right">
+                <p>Copyright &#169 Shahriar.Made by <i class="fa-solid fa-heart"></i> Abu Al Shahriar Rifat</p>
+              </div>
+        </div>
+    </div>
+    <!-- Contact form ends from here -->
+    <script src="./index.js"></script>
+</body>
+</html>
